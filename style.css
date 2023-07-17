@@ -1,0 +1,727 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+}
+.header1{
+    width: 60%;
+    height: auto;  
+     /* background-color: aqua; */
+    position: relative;
+    left: 40px; 
+}
+.header2{
+    width: 40%;
+    height: auto;
+position: relative;
+left: 150px;
+top: 20px;
+    
+}
+.header1 h1{
+    font-size: 40px;
+}
+.header1 h4{
+    font-size: 20px;
+}
+.header1 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.header1 ul{
+    width: 50%;
+    height: auto;
+    display: flex;
+    padding-top: 10px;
+}
+.header1 ul li{
+    width: 50%;
+    height: auto;
+    display: flex;
+} 
+.header1 ul i{
+    font-size: 30px;
+}
+.header1 ul li span{
+    padding-top: 5px;
+    font-size: 17px;
+}
+.header2 button{
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 15px;
+}
+.header2 h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* section2 */
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.section2 img{
+    width: 1270px;
+}
+/* over-section */
+.over-section{
+    width: 100%;
+    height: auto;
+}
+.over-section h1{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.view-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 14px;
+font-size: 18px;
+}
+.part1{
+width: 50%;
+height: auto;
+}
+.part2{
+    width: 50%;
+    height: auto;
+}
+/* itinerary-section */
+.intinerary{
+    width: 100%;
+    height: auto;
+}
+.intinerary h1{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.tempal-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+}
+.tempal-section img{
+    width: 400px;
+    height: 250px;
+}
+/* maps-section */
+.maps-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.maps-section img{
+width: 1280px;
+height: 400px;
+}
+/* included-section */
+.included-section{
+    width: 100%;
+    height: 200px;
+position: relative;
+top: 50px;
+}
+.box-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px 50px;
+    /* align-items: start; */
+    justify-content: space-between;
+    /* position: relative;
+    left: 45px;
+    top: 10px; */
+}
+.box1{
+    width: 400px;
+    height: auto;
+}
+.box2{
+    /* width: 50%; */
+    width: 400px;
+
+    height: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: end; */
+    /* position: relative;
+    left: 120px; */
+}
+.box1 h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.box2 h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* men-section */
+.men-section{
+    width: 100%;
+    height: auto;
+}
+.children-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 60px;
+    padding-inline: 40PX;
+}
+.child1{
+    width: 50%;
+    height: auto;
+}
+.child2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20PX;
+}
+.child1 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.child2 img{
+    width: 300px;
+    height: 180px;
+
+}
+/* galery-section */
+.galery-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.galery-section h1{
+    font-size: 40px;
+}
+
+.phone-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    justify-content: space-evenly;
+    
+}
+.phone-section img{
+    width: 350px;
+
+}
+.phone-section img:hover{
+    width: 400px;
+    transition: 3s;
+}
+ /* looking-section */
+.looking-section{
+    width: 100%;
+    height: auto;
+position: relative;
+top: 50px;
+/* padding-inline: 60px; */
+}
+.looking-section h1{
+    position: relative;
+    left: 50px;
+    font-size: 40px;
+}
+.looking1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-inline: 50px;
+    /* padding-top: 50px; */
+}
+.son1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.son2{
+    width: 50%;
+    height: auto;
+    display: flex; 
+    align-items: center;  
+    justify-content: center; 
+}
+.cheptar1{
+    width: 50%;
+    height: auto;
+}
+.cheptar2{
+    width: 50%;
+    height: auto;
+}
+.cheptar1 img{
+    width: 150px;
+}
+.cheptar2 p{
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+}
+.veer1{
+    width: 50%;
+    height: auto;
+}
+.veer2{
+    width: 50%;
+    height: auto;
+}
+.veer1 img{
+
+    width: 150px;
+}
+.veer2 p{
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+}
+
+/* looking-section */
+.looking-section{
+    width: 100%;
+    height: auto;
+position: relative;
+top: 50px;
+padding-inline: 60px;
+}
+.looking-section h1{
+    position: relative;
+    left: 500px;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.looking1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-inline: 50px;
+    padding-top: 50px;
+}
+.son1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.son2{
+    width: 50%;
+    height: auto;
+    display: flex; 
+    align-items: center;  
+    justify-content: center; 
+}
+.cheptar1{
+    width: 50%;
+    height: auto;
+}
+.cheptar2{
+    width: 50%;
+    height: auto;
+}
+.cheptar1 img{
+    width: 150px;
+}
+.cheptar2 p{
+    font-size: 20px;
+    /* position: relative; */
+    /* right: 100px; */
+}
+.veer1{
+    width: 50%;
+    height: auto;
+}
+.veer2{
+    width: 50%;
+    height: auto;
+}
+.veer1 img{
+
+    width: 150px;
+}
+.veer2 p{
+    font-size: 20px;
+    /* position: relative; */
+    /* right: 100px; */
+}
+/* question-section */
+.question-section{
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+}
+.question-section h1{
+    position: relative;
+    left: 105px;
+}
+.answer-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* left: 100px; */
+    top: 10px;
+}
+.line1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line2{
+width: 50%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.line1 select{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+.answer-section .line2{
+    font-size: 20px;
+}
+.line2 select{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black; 
+    margin-top: 30px;   
+}
+/* tour-section */
+.tour-section{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-inline: 50px;
+}
+.tour-section h1{
+    position: relative;
+    left: 45px;
+
+}
+.mandir-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.mandir-section img{
+    width: 250px;
+    height: 190px;
+}
+
+@media (max-width:768px) {
+
+   
+    .main-container{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+        
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+        /* align-items: start; */
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+.header1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.header2{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-bottom: 80px;
+    gap: 10px;   
+    margin-left: 150px; 
+}
+
+.header1 p{
+    font-size: 20px;
+    padding-right: 70px;
+
+}
+.header1 h4{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.header1 li{
+    font-size: 40px;
+    padding-top: 10px;
+}
+.header1 ul li {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.header2 h4{
+    padding-bottom: 20px;
+    font-size: 25PX;
+}
+/* SECTION2 */
+.section2{
+    width: 100%;
+    height: auto;
+}
+.section2 img{ 
+    width:700px;
+}
+/* over-section */
+.over-section{
+    width: 100%;
+    height: auto;
+}
+.view-section{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.part1{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+.part2{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    padding-top: 20px;
+}
+/* itinerary-section */
+.intinerary-section{
+    width: 100%;
+    height: auto;
+}
+.intinerary h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+.tempal-section{
+    width: 100%;
+    height: 1000px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+/* map-section */
+.maps-section{
+    height: auto;
+    width: 100%;
+}
+.map-section img{
+    width: 700px;
+}
+/*  included-section*/
+.included-section{
+    width: 100%;
+    height: auto;
+}
+
+.box-section{
+    width: 100%;
+    height: auto;
+    flex-direction:column;
+    align-items: start;
+
+}
+.box2{
+    padding-top: 20px;
+}
+/* men-section */
+.men-section{
+    width: 100%;
+    height: auto;
+}
+.children-section{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.child1{
+    width: 100%;
+    height: auto;
+}
+.child1 p{
+    font-size: 22px;
+}
+.child1 h1{
+    font-size: 39px;
+}
+
+.child2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+}
+.child2 img{
+width: 500px;
+height: 300px;
+}
+/* galery-section */
+.galery-section{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.phone-section{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+align-items: center;
+}
+.phone-section img{
+    width: 300px;
+}
+.galery-section h1{
+    font-size: 40px;
+}
+/* looking-section */
+.looking-section{
+    width: 100%;
+    height: auto;
+}
+.looking-section h1{
+position: relative;
+left: 50px;
+}
+.looking1{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.son1{
+    width: 100%;
+    height: auto;
+    
+    /* background-color: aqua; */
+    /* flex-direction: column; */
+}
+.son2{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+
+/* question-section */
+.question-section{
+    width: 100%;
+    height: auto;
+    padding-right: 55px;
+}
+ .answer-section{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+ }
+/* tour-section */
+.tour-section{
+    width: 100%;
+    height: auto;
+}
+.mandir-section{
+    width: 100%;
+    height: 1200px;
+    flex-direction: column;
+}
+.mandir-section img{
+    width: 400px;
+    height: 250px;
+}
+.tour-section h1{
+    font-size: 45px;
+    margin-left: 90px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
